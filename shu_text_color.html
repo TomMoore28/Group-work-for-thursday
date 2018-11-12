@@ -1,0 +1,37 @@
+<DOCTYPE! html>
+<html>
+<head>
+   <script>
+       function greenText()
+       {
+           var shuObject = document.getElementById("shu");
+           shuObject.style.color = 'green';
+       }
+
+       function blueText()
+       {
+           var shuObject = document.getElementById("shu");
+           shuObject.style.color = 'blue';
+       }
+	   function blueFont20()
+	   {
+			var computingObject = document.getElementById("computing");
+			computingObject.style.color = 'blue';
+		}
+		function redFont35()
+		{
+			var computingObject = document.getElementById("computing");
+			computingObject.style.color = 'red';
+		}
+   </script>
+</head>
+<body>
+<h1 id="shu" style="color:blue" onmouseover="greenText()" onmouseout="blueText()">
+   Welcome to Sheffield Hallam University
+</h1>
+<h2 id="computing" style="color:red" onmouseover="blueFont20()" onmouseout="redFont35()">
+	Computing
+</>h2
+</body>
+</html>
+
